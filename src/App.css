@@ -1,0 +1,63 @@
+main {
+    width: 600px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
+    margin: auto;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #884848;
+    width: 500px;
+}
+
+form button {
+    padding: 12px 24px;
+    background: #884848;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.message-el {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    margin-block: 5px;
+    align-items: center;
+}
+
+.message-el.message-user {
+    justify-content: flex-end;
+}
+
+.message-el.message-chatbot {
+    justify-content: flex-start;
+}
+
+.message-el i {
+    font-size: 32px;
+}
+
+.message-el span {
+    padding: 12px;
+    background-color: #d1cece;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.welcome-paragraph {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
